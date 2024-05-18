@@ -11,6 +11,7 @@
 	<groupId>com.example.bankapplication</groupId>
 	<artifactId>loans</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>loans</name>
 	<description>Loans microservice in Bank application</description>
 	<properties>
@@ -79,6 +80,9 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<image>
+						<name>bhagwatsamarth/${project.artifactId}:s4</name>
+					</image>
 				</configuration>
 			</plugin>
 		</plugins>
